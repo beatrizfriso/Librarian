@@ -11,6 +11,7 @@
         <AssemblyName>Librarian.Application</AssemblyName>
         <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
+        <LangVersion>latest</LangVersion>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
         <PlatformTarget>AnyCPU</PlatformTarget>
@@ -53,9 +54,12 @@
         <Compile Include="Mapper\BookMapper.cs" />
         <Compile Include="Mapper\GenreMapper.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="Service" />
+        <Compile Include="Service\AuthorService.cs" />
+        <Compile Include="Service\BookService.cs" />
+        <Compile Include="Service\GenreService.cs" />
+        <Compile Include="Service\Interface\IAuthorService.cs" />
+        <Compile Include="Service\Interface\IBookService.cs" />
+        <Compile Include="Service\Interface\IGenreService.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

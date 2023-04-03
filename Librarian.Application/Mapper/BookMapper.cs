@@ -1,4 +1,6 @@
-﻿namespace Librarian.Application.Mapper
+﻿using Librarian.Application.DTOs.Response;
+
+namespace Librarian.Application.Mapper
 {
     public class BookMapper
     {
