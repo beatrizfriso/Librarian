@@ -43,9 +43,12 @@
         <Compile Include="EntityFramework\Config\GenreConfiguration.cs" />
         <Compile Include="EntityFramework\LibraryContext.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="Repositories" />
+        <Compile Include="Repositories\AuthorRepository.cs" />
+        <Compile Include="Repositories\BaseRepository.cs" />
+        <Compile Include="Repositories\BookRepository.cs" />
+        <Compile Include="Repositories\GenreRepository.cs" />
+        <Compile Include="Repositories\Interface\IBaseRepository.cs" />
+        <Compile Include="Repositories\Interface\IBookRepository.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
