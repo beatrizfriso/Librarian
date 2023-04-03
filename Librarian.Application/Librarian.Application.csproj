@@ -46,13 +46,15 @@
         <Compile Include="DTOs\Request\Genre\GenreRequest.cs" />
         <Compile Include="DTOs\Request\Genre\UpdateGenreRequest.cs" />
         <Compile Include="DTOs\Request\GetByIdRequest.cs" />
+        <Compile Include="DTOs\Response\AuthorResponse.cs" />
+        <Compile Include="DTOs\Response\BookResponse.cs" />
+        <Compile Include="DTOs\Response\GenreResponse.cs" />
         <Compile Include="Mapper\AuthorMapper.cs" />
         <Compile Include="Mapper\BookMapper.cs" />
         <Compile Include="Mapper\GenreMapper.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
-      <Folder Include="DTOs\Response" />
       <Folder Include="Service" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
