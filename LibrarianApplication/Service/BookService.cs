@@ -76,5 +76,50 @@ namespace Librarian.Application.Service
             _bookRepository.Update(book);
             return book;
         }
-    }
+
+        public Book BorrowBook(Guid bookId, Guid borrowerId)
+        {
+            var book = _bookRepository.GetById(bookId);
+        
+            if (book == null)
+            {
+                throw new Exception($"Book with ID {bookId} not found");
+            }
+        
+            if (book.IsBorrowed)
+            {
+                throw new Exception($"Book with ID {bookId} is already borrowed");
+            }
+        
+            // empréstimo do livro
+            book.IsBorrowed = true;
+            _bookRepository.Update(book);
+            _bookRepository.Save();
+            
+        
+            return book;
+        }
+
+        public Book ReturnBook(Guid bookId)
+        {
+            var book = _bookRepository.GetById(bookId);
+        
+            if (book == null)
+            {
+                throw new Exception($"Book with ID {bookId} not found");
+            }
+        
+            if (!book.IsBorrowed)
+            {
+                throw new Exception($"Book with ID {bookId} is not borrowed");
+            }
+        
+            // devolução do livro
+            book.IsBorrowed = false;
+            _bookRepository.Update(book);
+            _bookRepository.Save();
+
+            return book;
+        }
+        }
 }

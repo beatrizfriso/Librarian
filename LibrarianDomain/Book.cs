@@ -15,5 +15,7 @@ namespace Librarian.Domain
         public Guid AuthorId { get; set; }
         public virtual Genre Genre { get; set; }
         public virtual Author Author { get; set; }
+        
+        public bool IsBorrowed { get; set; } = false;
     }
 }

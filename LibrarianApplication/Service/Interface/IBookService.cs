@@ -14,5 +14,8 @@ namespace Librarian.Application.Service.Interface
         Book InsertBook(BookRequest newBook);
         bool DeleteBook(Guid id);
         Book UpdateBook(UpdateBookRequest updatedBook);
+        
+        Book BorrowBook(Guid bookId, Guid borrowerId);
+        Book ReturnBook(Guid bookId);
     }
 }
