@@ -71,7 +71,7 @@ namespace Librarian.WebAPI.Controllers
             }
         }
 
-        [HttpGet]
+        [HttpGet(template:"all")]
         public ActionResult<List<BookResponse>> GetAll()
         {
             return Ok(_bookService.GetAll());
