@@ -39,7 +39,7 @@ To install and run the Librarian API, follow these steps:
 > 6. The API will be hosted at https://localhost:5001 by default. You can access it using a web browser or a tool like [Postman](https://www.postman.com/) for API testing.
 
 
-## Usage
+## Usage ✏️
 
 The Librarian API provides the following endpoints for managing a book library:
 
