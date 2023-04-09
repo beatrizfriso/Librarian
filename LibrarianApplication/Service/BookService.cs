@@ -113,8 +113,7 @@ namespace Librarian.Application.Service
             {
                 throw new Exception($"Book with ID {bookId} is not borrowed");
             }
-        
-            // devolução do livro
+            
             book.IsBorrowed = false;
             _bookRepository.Update(book);
             _bookRepository.Save();
