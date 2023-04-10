@@ -3,7 +3,7 @@ Librarian API is a .NET-based web API for managing a book library, designed for 
 
 ## Features 💻
 
-Librarian API includes the following features:
+Librarian API will include the following features:
 
 - [x] CRUD (Create, Read, Update, Delete) operations for managing books in a library.
 - [ ] Token-based authentication and authorization for securing API endpoints.
