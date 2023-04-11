@@ -12,5 +12,6 @@ namespace Librarian.Application.DTOs.Exceptions
 
         public string Name { get; set; }
         public string StackTrace { get; set; }
+
     }
 }
