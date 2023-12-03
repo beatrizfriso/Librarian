@@ -5,11 +5,19 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Librarian.WebAPI", "Librarian.WebAPI\Librarian.WebAPI.csproj", "{D6070151-2EEF-4F93-8574-85788783B4BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Librarian.Application", "LibrarianApplication\Librarian.Application.csproj", "{24EA2EE5-2C4A-4E1D-B541-C88330659D2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Librarian.Application", "LibrarianApplication\Librarian.Application.csproj", "{24EA2EE5-2C4A-4E1D-B541-C88330659D2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Librarian.Infrastructure", "Librarian.Infra\Librarian.Infrastructure.csproj", "{B1840084-8063-4612-9FA5-0554A4A10F52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Librarian.Infrastructure", "Librarian.Infra\Librarian.Infrastructure.csproj", "{B1840084-8063-4612-9FA5-0554A4A10F52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Librarian.Domain", "LibrarianDomain\Librarian.Domain.csproj", "{B201F244-DF2B-43D9-9611-2652AD86104E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Librarian.Domain", "LibrarianDomain\Librarian.Domain.csproj", "{B201F244-DF2B-43D9-9611-2652AD86104E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A27F5943-36ED-4534-B8C4-0B884BFFF7D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{A27A58BF-A8AF-4BE5-8C23-D9DC958AB161}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		Librarian.WebAPI\Dockerfile = Librarian.WebAPI\Dockerfile
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +44,13 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D6070151-2EEF-4F93-8574-85788783B4BF} = {A27F5943-36ED-4534-B8C4-0B884BFFF7D3}
+		{24EA2EE5-2C4A-4E1D-B541-C88330659D2F} = {A27F5943-36ED-4534-B8C4-0B884BFFF7D3}
+		{B1840084-8063-4612-9FA5-0554A4A10F52} = {A27F5943-36ED-4534-B8C4-0B884BFFF7D3}
+		{B201F244-DF2B-43D9-9611-2652AD86104E} = {A27F5943-36ED-4534-B8C4-0B884BFFF7D3}
+		{A27A58BF-A8AF-4BE5-8C23-D9DC958AB161} = {A27F5943-36ED-4534-B8C4-0B884BFFF7D3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {39E341F6-6203-4361-B904-8903EAA78996}

@@ -10,14 +10,15 @@
         "projectUniqueName": "C:\\Projetos\\Librarian\\Librarian.Infra\\Librarian.Infrastructure.csproj",
         "projectName": "Librarian.Infrastructure",
         "projectPath": "C:\\Projetos\\Librarian\\Librarian.Infra\\Librarian.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\beatrizp\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\beatriz.f.de.paula\\.nuget\\packages\\",
         "outputPath": "C:\\Projetos\\Librarian\\Librarian.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\beatrizp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\beatriz.f.de.paula\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,9 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\nuget-local": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.miisy.me/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -142,7 +141,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -152,14 +151,15 @@
         "projectUniqueName": "C:\\Projetos\\Librarian\\Librarian.WebAPI\\Librarian.WebAPI.csproj",
         "projectName": "Librarian.WebAPI",
         "projectPath": "C:\\Projetos\\Librarian\\Librarian.WebAPI\\Librarian.WebAPI.csproj",
-        "packagesPath": "C:\\Users\\beatrizp\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\beatriz.f.de.paula\\.nuget\\packages\\",
         "outputPath": "C:\\Projetos\\Librarian\\Librarian.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\beatrizp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\beatriz.f.de.paula\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -167,9 +167,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\nuget-local": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.miisy.me/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -239,6 +237,10 @@
               "target": "Package",
               "version": "[8.0.0-preview.2.23128.3, )"
             },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.5, )"
+            },
             "Npgsql": {
               "target": "Package",
               "version": "[7.0.2, )"
@@ -287,7 +289,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -297,14 +299,15 @@
         "projectUniqueName": "C:\\Projetos\\Librarian\\LibrarianApplication\\Librarian.Application.csproj",
         "projectName": "Librarian.Application",
         "projectPath": "C:\\Projetos\\Librarian\\LibrarianApplication\\Librarian.Application.csproj",
-        "packagesPath": "C:\\Users\\beatrizp\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\beatriz.f.de.paula\\.nuget\\packages\\",
         "outputPath": "C:\\Projetos\\Librarian\\LibrarianApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\beatrizp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\beatriz.f.de.paula\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -312,9 +315,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\nuget-local": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.miisy.me/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -432,7 +433,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -442,14 +443,15 @@
         "projectUniqueName": "C:\\Projetos\\Librarian\\LibrarianDomain\\Librarian.Domain.csproj",
         "projectName": "Librarian.Domain",
         "projectPath": "C:\\Projetos\\Librarian\\LibrarianDomain\\Librarian.Domain.csproj",
-        "packagesPath": "C:\\Users\\beatrizp\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\beatriz.f.de.paula\\.nuget\\packages\\",
         "outputPath": "C:\\Projetos\\Librarian\\LibrarianDomain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\beatrizp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\beatriz.f.de.paula\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -457,9 +459,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\nuget-local": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.miisy.me/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -566,7 +566,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
